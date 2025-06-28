@@ -1,13 +1,13 @@
 [SddmGreeterTheme]
-Name=Tokyo Night SDDM (Reskinned)
-Description=A Tokyo Night (Reskinned)Theme for SDDM
-Author=Kapy
+Name=DeadPool-SDDM
+Description=A SDDM theme for the love of Deadpool
+Author=Kapy2003
 License=GPL-3.0-or-later
 Type=sddm-theme
 Version=1.0
-Website=https://github.com/Kapy2003/Tokyo-Night-SDDM--Reskinned
+Website=https://github.com/Kapy2003/DeadPool-SDDM
 Screenshot=sddm-preview.png
 MainScript=Main.qml
 ConfigFile=theme.conf
-Theme-Id=tokyo-night-sddm-(Reskinned)
+Theme-Id=DeadPool-SDDM
 
