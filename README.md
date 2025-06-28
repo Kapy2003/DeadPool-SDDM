@@ -1,7 +1,7 @@
-<h2 align="center">🗼 Tokyo Night SDDM 🗼</h2>
+<h2 align="center"> DeadPool SDDM </h2>
 
 <p align=center>
-A Tokyo Night theme for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>
+A DeadPool theme for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>
 </p>
 
 <h2 align=center>Preview</h2>
@@ -19,13 +19,13 @@ A Tokyo Night theme for the <a href="https://github.com/sddm/sddm">SDDM Login Ma
 1. Open terminal, and clone the repository with:
 
    ```sh
-   git clone https://github.com/Kapy2003/Tokyo-Night-SDDM-Reskinned.git ~/tokyo-night-sddm-reskinned
+   git clone https://github.com/Kapy2003/DeadPool-SDDM
    ```
 
 2. Them move it as follows:
 
    ```sh
-   sudo mv ~/tokyo-night-sddm-reskinned /usr/share/sddm/themes/
+   sudo mv https://github.com/Kapy2003/DeadPool-SDDM /usr/share/sddm/themes/
    ```
 
 ## Configure
@@ -36,13 +36,13 @@ Edit the `/etc/sddm.conf` (with any text editor with **raised** privileges), so 
 sudo nano /etc/sddm.conf  # use any text editor with raised privileges
 ---
 [Theme]
-Current=tokyo-night-sddm-reskinned
+Current=DeadPool-SDDM
    ```
 
 ### Language and time format
 
 - You can also change the time format.
-- To change the default wallpaper put desired image in the `tokyo-night-sddm-reskinned/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
+- To change the default wallpaper put desired image in the `DeadPool/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
 - You can also customize it further if you wish in the `theme.conf`
 (blur, form position, etc).
 ## Credits
