@@ -25,7 +25,8 @@ A DeadPool theme for the <a href="https://github.com/sddm/sddm">SDDM Login Manag
 2. Them move it as follows:
 
    ```sh
-   sudo mv https://github.com/Kapy2003/DeadPool-SDDM /usr/share/sddm/themes/
+   cd DeadPool-SDDM
+   sudo mv DeadPool-SDDM /usr/share/sddm/themes/
    ```
 
 ## Configure
@@ -38,18 +39,24 @@ sudo nano /etc/sddm.conf  # use any text editor with raised privileges
 [Theme]
 Current=DeadPool-SDDM
    ```
+or,
+
+```sh
+cd /etc/sddm.conf.d/
+```
+now edit the conf file in the folder
 
 ### Language and time format
 
 - You can also change the time format.
-- To change the default wallpaper put desired image in the `DeadPool/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
+- To change the default wallpaper put desired image in the `DeadPool-SDDM/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
 - You can also customize it further if you wish in the `theme.conf`
 (blur, form position, etc).
 ## Credits
 
 - Based on the theme [`Tokyo Night SDDM`](https://github.com/siddrs/tokyo-night-sddm)
 - Based on the theme [`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark) by [**MarianArlt**](https://github.com/MarianArlt).
-- AUR Package by [**julian-poidevin**](https://github.com/julian-poidevin)
+
 
 ## License
 
