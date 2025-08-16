@@ -25,7 +25,6 @@ A DeadPool theme for the <a href="https://github.com/sddm/sddm">SDDM Login Manag
 2. Them move it as follows:
 
    ```sh
-   cd DeadPool-SDDM
    sudo mv DeadPool-SDDM /usr/share/sddm/themes/
    ```
 
